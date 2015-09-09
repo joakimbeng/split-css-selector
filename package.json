@@ -1,0 +1,22 @@
+{
+  "name": "split-css-selector",
+  "version": "0.1.0",
+  "description": "Split a comma separated CSS selector list into an array of selectors",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@klei.se"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.1.0",
+    "xo": "^0.8.0"
+  },
+  "repository": "joakimbeng/split-css-selector"
+}
